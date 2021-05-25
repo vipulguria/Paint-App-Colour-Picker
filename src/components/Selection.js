@@ -13,7 +13,7 @@ function Selection(props) {
         applyColor(updateSelectionStyle);
       }}
     >
-      <h2 className="subHeading">Selection</h2>
+      Selection
     </div>
   );
 }
