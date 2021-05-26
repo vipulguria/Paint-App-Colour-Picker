@@ -5,7 +5,7 @@ const ColourSelector = (props) => {
   const { background } = config;
   return (
     <button
-      className={config.className}
+      className={config.classname}
       onClick={() => selectNextBackground({ background: background })}
     >
       {config.label}

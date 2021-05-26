@@ -48,8 +48,8 @@ const App = () => {
       </div>
 
       <div className="row" id="children-wrapper">
-        {["selection1", "selection2", "selection3"].map((key) => (
-          <Selection key={key} applyColor={applyColor} />
+        {["selection1", "selection2", "selection3"].map((item) => (
+          <Selection itemNumber={item} applyColor={applyColor} />
         ))}
       </div>
     </div>
@@ -57,9 +57,6 @@ const App = () => {
 };
 
 export default App;
-
-
-
 
 // import React, { useState } from "react";
 // import '../styles/App.css';
@@ -112,6 +109,5 @@ export default App;
 //     </div >
 //   )
 // }
-
 
 // export default App;
